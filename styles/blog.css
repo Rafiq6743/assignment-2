@@ -639,6 +639,9 @@ padding-bottom: 40px;
     margin-bottom: 150px;
     margin-top: 100px;
 }
+.div10{
+    display: hidden;
+}
 
 
 @media  screen and ( max-width:576px) {
@@ -669,28 +672,36 @@ padding-bottom: 40px;
     margin-left: 0px;
 }
 .sec62,.sec56{
-    padding: 16px 30px;
+    padding: 4% 4%;
 }
 div ul li{
     margin-left: 30px;
 }
 .sec60{
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
-    background-position: 60px;
+    background-position: 60%;
 }
 .sec19 , .sec22 ,.sec26,.sec27{
     margin: 0 0 0 0;
 }
 .sec25{
-    width: 380px;
+    width: 90%;
+    margin-top: 20px;
+
+}
+.div01{
+    margin-left: 4%;
+    margin-right: 20px;
 }
 .sec28{
-    margin-left: 90px;
+    margin-left: 20%;
     margin-top: 20px;
 }
 .sec24{
-    margin-left: 15px;
-    width: 350px;
+    margin-left: 4%;
+    width: 90%;
 }
 .sec52,.sec53{
     margin-left: 0;
@@ -700,28 +711,50 @@ div ul li{
     margin-bottom: 70px;
 }
 .sec49{
-    margin-left: 0px;
+    margin-left: 1%;
     margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.sec51{
-    padding: 12px 0px;
-    margin-right: 0px;
+.div09{
+    
 }
+.div04{
+    padding-left: 5px;
+    width: 100px;
+
+}
+.div05{
+    width: 100px;
+    padding-left:5px ;
+}
+.div08{
+    width: 100px;
+    padding-left:5px ;
+    
+    
+}
+
 .sec41{
-    padding: 12px 125px 12px 0px;
+    padding-right: 75px;
 }
 .sec42{
-    padding: 12px 215px 12px 0px;
+    padding-right: 38%;
 }
 .sec30{
     grid-template-columns: repeat(1, 6fr);
-    width: 420px;
+    width: 300px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
 }.sec35, .sec36{
-    margin-left: 40px;
+    
     margin-bottom: 40px;
 }
-.sec38, .sec39{
-    margin-left: 40px;
+.sec32, .sec37{
+margin-left: 0px;
 }
 .sec66{
     display: inline;
@@ -729,14 +762,28 @@ div ul li{
 .sec69{
     margin-left: 5px;
 }
-.sec74{width: 420px;
+.sec74{width: 98%;
     margin: 70px 0px 30px 0px;
 
 }
 .sec90{
     margin-bottom: 40px;
     margin-top: 40px;
+width: 90%;
+height: 310px;
     
+}
+.sec91{
+
+    align-items: center;
+    width: 100%;
+}
+.sec93{
+    width: 90%;
+}
+.sec50{
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 }
